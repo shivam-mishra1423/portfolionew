@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY personal protfilio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c9598b1c1e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <!--nav bar section-->
+            <nav>
+                <img src='image/logo.png' class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">protfilio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-bars" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!--end nav bar section-->
+            <div class="header-text">
+                <p>Machine Learning  Engneer</p>
+                <h1>Hi, I am <span>Shivam </span><br> Kumar Mishra</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------about section------------------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                        <img src="image/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-titles">About Me</h1>
+                    <p>I have a deep passion for programming and problem-solving, constantly driven by the challenge of turning complex ideas into functional, efficient code. My journey in technology is fueled by a love for continuous learning and the satisfaction of overcoming obstacles with creative solutions. Outside of coding, I enjoy unwinding with technical movies, which not only entertain but also inspire me with new perspectives on technology and innovation. I'm always on the lookout for the next challenge, whether it's in the form of a coding puzzle or a groundbreaking idea in a film.
+
+                    </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experince</p>
+                        <p class="tab-links" onclick="opentab('education')">eduaction</p>
+                    </div>
+                    <!--------------------skills------------------------->
+                    <div class="tab-contents active-tab"  id="skills">
+                        <ul>
+                        <li><span>UI/UX</span><br>Desiner web/App interface</li>
+                        <li><span>Web developer</span><br>Web app developer</li>
+                        <li><span>App developer</span><br>building andiod / ios apps</li>
+                        </u>
+                    </div>
+                    <!----------experience------->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                        <li><span>experience</span><br>Desiner web/App interface</li>
+                        <li><span>Web developer</span><br>Web app developer</li>
+                        <li><span>App developer</span><br>building andiod / ios apps</li>
+                        </u>
+                    </div>
+                    <!----------------eduaction----------->
+                    <div class="tab-contents"  id="education">
+                        <ul>
+                        <li><span>eduaction</span><br>pass the 10 examination</li>
+                        <li><span>2022</span><br>12th pass</li>
+                        <li><span>2022</span><br>st andrews institue of technology and management</li>
+                        </u>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--end the about section------------------------------>
+
+<!-----------------start the service section---------------->
+
+
+<div id="services">
+    <div class="container">
+    <h1 class="sub-titles">My services</h1>
+    <div class="service-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Desiner</h2>
+            <p>As a dedicated web designer, I am passionate about crafting visually stunning and highly functional websites that offer users an exceptional experience. My design philosophy centers on the seamless integration of aesthetics and usability, ensuring that each project not only looks great but also performs flawlessly across all devices.
+
+                With a strong foundation in HTML, CSS, and JavaScript, I enjoy bringing creative concepts to life through clean, efficient code. I thrive on the challenge of designing responsive, intuitive interfaces that engage users and make navigation effortless. My keen eye for detail and commitment to staying updated with the latest design trends allow me to create websites that are not only visually appealing but also aligned with modern web standards.
+                
+                Beyond technical skills, I value the importance of collaboration and communication in the design process. I work closely with clients to understand their vision and goals, translating their ideas into a digital reality that reflects their brand identity.
+                
+                When I’m not designing, I’m continually exploring new design tools and techniques, inspired by the ever-evolving landscape of web design. My ultimate goal is to create web experiences that resonate with users and leave a lasting impact.
+                
+                </p>
+            <a href="https://en.wikipedia.org/wiki/Web_design">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UX/UI DESINER</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, architecto!</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>APP DESINER</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, architecto!</p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+    </div>
+</div>
+<!------------------------end service section------------------>
+
+<!--------------------portifolio section---------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png">
+                <div class="layer">
+                    <h3>social media app</h3>
+                    <p>the app connects you yo the talented peopel around the world . download it from play store</p>
+                    <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png">
+                <div class="layer">
+                    <h3>Music app</h3>
+                    <p>The app connects you yo the talented peopel around the world . download it from play store</p>
+                    <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png">
+                <div class="layer">
+                    <h3>online shoping  app</h3>
+                    <p>the app connects you yo the talented peopel around the world . download it from play store</p>
+                    <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------------------------------------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contect me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shivammishra02432@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9798053983</p>
+                <div class="social-icons">
+                    <a href=" "><i class="fa-brands fa-facebook"></i></a>
+                    <a href=" "><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=" "><i class="fa-brands fa-instragram"></i></a>
+                    <a href="https://www.linkedin.com/in/shivam-kumar-mishra-b47739279/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/shivam-mishra1423/apnacollage-demo/tree/main"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="http://127.0.0.1:5500/portfoliowebsite/resume/resume.html"  download class="btn  btn2">Download Cv</a>
+            </div>
+            <div class="contact-right"><!--form to contact me-->
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder=" your name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="your massage"></textarea>
+                    <button type="submit" class="btn  btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ shivam, made with <i class="fa-solid fa-heart"></i>SHIVAM MISHRA</p>
+        </div>
+    </div>
+</div>
+
+<!--this is the parth of the about section script -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <!--------------end the about section of the script -->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzcSX7jTZSyH7IMuF414_W4qPD9wLCTXOV9FvDWDQtaUjJ2Jcig-L7tXVy77hbnVqEq/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        const msg=document.getElementById("msg")
+
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="your massage is send successfully  resposne soon   thanks"
+                setTimeout(function()
+                {
+                    msg.innerHTML=" ";
+                },5000)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
